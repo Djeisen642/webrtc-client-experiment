@@ -3,5 +3,6 @@
     "@/(.*)": "<rootDir>/src/$1"
   },
   "preset": "ts-jest",
-  "testEnvironment": "node"
+  "testEnvironment": "node",
+  "testMatch": [ "**/jest/**/?(*.)+(spec|test).[jt]s?(x)" ]
 }

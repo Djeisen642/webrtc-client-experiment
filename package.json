@@ -14,12 +14,14 @@
     "postpack": "pinst --enable",
     "print-lint-rules": "eslint --print-config ./src/example.ts > ./temp/rules.txt",
     "print-test-lint-rules": "eslint --print-config ./src/tests/example.test.ts > ./temp/test-rules.txt",
-    "test": "jest",
+    "test:jest": "jest",
+    "test:pw": "yarn playwright test",
     "up-i": "yarn upgrade-interactive && yarn dedupe"
   },
   "devDependencies": {
     "@commitlint/cli": "17.7.1",
     "@commitlint/config-conventional": "17.7.0",
+    "@playwright/test": "^1.37.1",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
     "@tsconfig/node18": "^18.2.1",
     "@tsconfig/strictest": "^2.0.1",
@@ -45,5 +47,8 @@
     "node": ">= 18",
     "npm": "please-use-yarn",
     "yarn": ">= 3.6.3"
+  },
+  "dependencies": {
+    "werift": "^0.18.5"
   }
 }
