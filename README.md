@@ -1,5 +1,8 @@
 # WebRTC DataChannel Client Experiment
 
+[![CodeQL](https://github.com/Djeisen642/webrtc-client-experiment/actions/workflows/codeql.yml/badge.svg)](https://github.com/Djeisen642/webrtc-client-experiment/actions/workflows/codeql.yml)
+[![Tests Passed](https://github.com/Djeisen642/webrtc-client-experiment/actions/workflows/ci.yml/badge.svg)](https://github.com/Djeisen642/webrtc-client-experiment/actions/workflows/ci.yml)
+
 ## Commands
 
 run `nvm install` to ensure that the correct node version is installed

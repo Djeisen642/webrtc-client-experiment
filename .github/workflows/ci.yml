@@ -26,12 +26,12 @@ jobs:
         run: yarn lint
 
       - name: Run tests
-        run: yarn test
+        run: yarn test:jest
 
       - name: Install Playwright Browsers
         run: yarn playwright install --with-deps
       - name: Run Playwright tests
-        run: yarn playwright test
+        run: yarn test:pw
       - uses: actions/upload-artifact@v3
         if: always()
         with:
